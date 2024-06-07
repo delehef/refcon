@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.2] - 2024-06-07
+
+### 📚 Documentation
+
+- Use default link
+
 ## [0.1.1] - 2024-06-07
 
 ### 🚀 Features
@@ -14,6 +20,7 @@ All notable changes to this project will be documented in this file.
 
 ### ⚙️ Miscellaneous Tasks
 
+- Release refcon version 0.1.1
 - Release refcon version 0.1.1
 
 ### Build
