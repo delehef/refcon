@@ -1,4 +1,4 @@
-[Crates.io](https://crates.io/crates/refcon) – [https://docs.rs/refcon/latest/refcon/](Documentation)
+[Crates.io](https://crates.io/crates/refcon) – [Documentation](https://docs.rs/refcon/latest/refcon/)
 
 # What is Refcon?
 
