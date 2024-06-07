@@ -1,3 +1,4 @@
+#![cfg_attr(not(test), no_std)]
 //! # What is Refcon?
 //!
 //! This crate provides the [`Refcon`] enum, which is used to wrap either a
@@ -6,7 +7,7 @@
 //! By implementing [`AsRef<T>`], [`Refcon`] lets either variant seamlessly
 //! behave as a reference to `T`.
 //!
-//! ```rust
+//! ```ignore
 //! const ZERO = ABigStruct::costly_initializer();
 //! let v: Vec<ABigStruct> = (0..10_000)
 //!     .map(|i|
@@ -19,7 +20,7 @@
 //!
 //! // [...]
 //!
-//! for x in {
+//! for x in v.iter() {
 //!   x.do_something();
 //! }
 //! ```
