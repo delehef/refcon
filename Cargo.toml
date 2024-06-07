@@ -15,3 +15,9 @@ category = ["data-structures", "memory-management"]
 [dev-dependencies]
 microbench = "0.5"
 rand = "0.8.5"
+
+[package.metadata.release]
+tag-prefix = ""
+publish = true
+pre-release-hook = ["git-cliff", "-o", "CHANGELOG.md", "--tag", "{{version}}"]
+allow-branch = ["master"]
