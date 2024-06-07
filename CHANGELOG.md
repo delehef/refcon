@@ -2,11 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0] - 2024-06-07
+
+### 🚀 Features
+
+- No_std compatibility
+
 ## [0.1.2] - 2024-06-07
 
 ### 📚 Documentation
 
 - Use default link
+
+### ⚙️ Miscellaneous Tasks
+
+- Release refcon version 0.1.2
 
 ## [0.1.1] - 2024-06-07
 
