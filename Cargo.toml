@@ -6,7 +6,6 @@ authors = ["Franklin Delehelle"]
 license = "CECILL-C"
 description = "A reference-behaving type indifferently wrapping reference or immediate values"
 repository = "https://github.com/delehef/refcon"
-documentation = "https://docs.rs/refcon/latest/refcon/"
 keywords = ["references", "container", "pointer"]
 category = ["data-structures", "memory-management"]
 
