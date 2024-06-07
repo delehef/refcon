@@ -12,6 +12,10 @@ All notable changes to this project will be documented in this file.
 
 - Fix README.md
 
+### ⚙️ Miscellaneous Tasks
+
+- Release refcon version 0.1.1
+
 ### Build
 
 - Add git-cliff
