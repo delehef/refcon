@@ -2,7 +2,16 @@
 name = "refcon"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Franklin Delehelle"]
+license = "CECILL-C"
+description = "A reference-behaving type indifferently wrapping reference or immediate values"
+repository = "https://github.com/delehef/refcon"
+documentation = "https://docs.rs/refcon/latest/refcon/"
+keywords = ["references", "container", "pointer"]
+category = ["data-structures", "memory-management"]
 
 [dependencies]
+
+[dev-dependencies]
+microbench = "0.5"
+rand = "0.8.5"
